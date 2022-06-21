@@ -13,6 +13,7 @@ class ThirsdViewC: UIViewController {
         super.viewDidLoad()
 
         self.title = "Sheko"
+        
     }
     
 

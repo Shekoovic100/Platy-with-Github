@@ -27,6 +27,11 @@
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFv-6P-MHY">
+                                <rect key="frame" x="60" y="660" width="294" height="30"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5m1-gx-8lK"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -36,7 +41,10 @@
                             <constraint firstItem="dtO-pa-BZR" firstAttribute="leading" secondItem="3bJ-ds-hfK" secondAttribute="leading" id="FbR-9Q-Yba"/>
                             <constraint firstItem="dtO-pa-BZR" firstAttribute="top" secondItem="3bJ-ds-hfK" secondAttribute="bottom" constant="113" id="ITf-Ae-ERQ"/>
                             <constraint firstItem="3bJ-ds-hfK" firstAttribute="leading" secondItem="5m1-gx-8lK" secondAttribute="leading" constant="60" id="N44-Zy-tIM"/>
+                            <constraint firstItem="hFv-6P-MHY" firstAttribute="leading" secondItem="dtO-pa-BZR" secondAttribute="leading" id="PlJ-CF-a04"/>
+                            <constraint firstItem="hFv-6P-MHY" firstAttribute="trailing" secondItem="dtO-pa-BZR" secondAttribute="trailing" id="eN3-qB-VeB"/>
                             <constraint firstItem="5m1-gx-8lK" firstAttribute="trailing" secondItem="3bJ-ds-hfK" secondAttribute="trailing" constant="60" id="fjn-c6-aD3"/>
+                            <constraint firstItem="hFv-6P-MHY" firstAttribute="top" secondItem="dtO-pa-BZR" secondAttribute="bottom" constant="76" id="wRf-ef-PXy"/>
                         </constraints>
                     </view>
                 </viewController>

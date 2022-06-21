@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F72D8AB2861D19600D45F09 /* Mohammed's class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72D8AA2861D19600D45F09 /* Mohammed's class.swift */; };
+		E09E26F1286276410090B875 /* ThirsdViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E26F0286276410090B875 /* ThirsdViewC.swift */; };
 		E0BB5C592861924600BFCAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB5C582861924600BFCAB3 /* AppDelegate.swift */; };
 		E0BB5C5B2861924600BFCAB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB5C5A2861924600BFCAB3 /* SceneDelegate.swift */; };
 		E0BB5C5D2861924600BFCAB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB5C5C2861924600BFCAB3 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8F72D8AA2861D19600D45F09 /* Mohammed's class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mohammed's class.swift"; sourceTree = "<group>"; };
+		E09E26F0286276410090B875 /* ThirsdViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirsdViewC.swift; sourceTree = "<group>"; };
 		E0BB5C552861924600BFCAB3 /* playwithGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playwithGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BB5C582861924600BFCAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BB5C5A2861924600BFCAB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E09E26EF286276280090B875 /* Third Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E09E26F0286276410090B875 /* ThirsdViewC.swift */,
+			);
+			path = "Third Screens";
+			sourceTree = "<group>";
+		};
 		E0BB5C4C2861924600BFCAB3 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		E0BB5C572861924600BFCAB3 /* playwithGithub */ = {
 			isa = PBXGroup;
 			children = (
+				E09E26EF286276280090B875 /* Third Screens */,
 				E0BB5C732861939B00BFCAB3 /* second Screen  */,
 				E0BB5C6C2861926C00BFCAB3 /*  App Delegate */,
 				E0BB5C72286192EA00BFCAB3 /* First Screen  */,
@@ -201,6 +212,7 @@
 			files = (
 				E0BB5C5D2861924600BFCAB3 /* ViewController.swift in Sources */,
 				E0BB5C592861924600BFCAB3 /* AppDelegate.swift in Sources */,
+				E09E26F1286276410090B875 /* ThirsdViewC.swift in Sources */,
 				E0BB5C75286193C800BFCAB3 /* SecondVC.swift in Sources */,
 				E0BB5C5B2861924600BFCAB3 /* SceneDelegate.swift in Sources */,
 				8F72D8AB2861D19600D45F09 /* Mohammed's class.swift in Sources */,

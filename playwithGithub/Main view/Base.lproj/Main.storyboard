@@ -15,8 +15,21 @@
                     <view key="view" contentMode="scaleToFill" id="STc-YP-Iws">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bJ-ds-hfK">
+                                <rect key="frame" x="60" y="402" width="294" height="39"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5m1-gx-8lK"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="3bJ-ds-hfK" firstAttribute="top" secondItem="5m1-gx-8lK" secondAttribute="top" constant="358" id="BXB-Ih-Llc"/>
+                            <constraint firstItem="3bJ-ds-hfK" firstAttribute="leading" secondItem="5m1-gx-8lK" secondAttribute="leading" constant="60" id="N44-Zy-tIM"/>
+                            <constraint firstItem="5m1-gx-8lK" firstAttribute="trailing" secondItem="3bJ-ds-hfK" secondAttribute="trailing" constant="60" id="fjn-c6-aD3"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xt9-bZ-A7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
